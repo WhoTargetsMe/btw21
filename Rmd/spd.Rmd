@@ -1,0 +1,29 @@
+---
+title: "Bundestagswahl 2021"
+subtitle: "Targeting criteria of Facebook ads - SPD"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+
+
+
+```{r, layout="l-screen-inset", out.height="3500px"}
+shiny::includeHTML("../docs/spd.html")
+
+
+```
+
+<br>
+<br>
+<br>
+<br>
+
+## Top 20 Occuring Targeting Criteria
+
+```{r}
+knitr::include_graphics("../img/targeting_spd.png")
+```
+
